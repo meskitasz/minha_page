@@ -3,11 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <title>Contato</title>
+    <link rel="stylesheet" href="CSS\style.css" />
+    <style>
+      table,
+      td {
+        border: black 1px solid;
+        border-collapse: collapse;
+        text-align: center;
+        padding: 5px;
+      }
+
+      th {
+        background-color: gray;
+      }
+    </style>
   </head>
-  <body>
-    <h3>Meus contatos</h3>
-    <p>Telefone: 819999999</p>
-    <p>Rua Raimundo Freixeiras - Casa Amarela</p>
+  <body class="fundo-contato">
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">Meus contatos</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr clss="branco">
+          <td>Telefone</td>
+          <td>819999999</td>
+        </tr>
+        <tr class="cinza">
+          <td>Rua Raimundo Freixeiras</td>
+          <td>Casa Amarela</td>
+        </tr>
+      </tbody>
+    </table>
     <a href="index.html">Voltar para o ínicio</a>
   </body>
 </html>
