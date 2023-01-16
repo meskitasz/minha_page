@@ -4,40 +4,119 @@
     <meta charset="UTF-8" />
     <title>💖Igor Mesquita - Minha página pessoal💖</title>
     <link rel="stylesheet" href="CSS\style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      div .col,
+        [class*='col-'] {
+            padding: 0.75em;
+            margin-bottom: 1.5em;
+            background-color: rgba(0, 123, 255, .15);
+            border: 1px solid rgba(0, 123, 255, .2); 
+        }
+
+       
+        
+    </style>
   </head>
 
   <body class="fundo">
-    <table>
-      <thead>
-        <tr>
-          <td>
-            <img src="eu2.jpeg" alt="" width="200" />
-          </td>
-          <td>
-            <h1>Igor Mesquita</h1>
-            <p>
-              <em><strong>Desenvolvedor Back-end</strong></em>
-            </p>
-            <p>
-              Atualmente estou cursando Análise e Desenvolvimento de Sistemas.💻
-            </p>
-          </td>
-        </tr>
-      </thead>
-    </table>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent ">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Sobre Mim">Sobre Mim</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div> 
+      </nav>
+      
+      
+   <div class="container text-center fundo-div1" >
+    <div class="paragrafos ">
+       <div>
+        <img src="CSS/imagem1.gif" alt="" width="100%" height="800px">
+       </div>
+       <br><br><br><br>
+       <hr>
+       <div id="Sobre Mim">
+        <img src="CSS/eujfif.jpg" alt="" width="300px">
+       </div>
+       
+       
+      <p>
+        <em><strong>Igor Mesquita</strong></em>
+      </p>
+      <p>
+        Atualmente sou estudande de <strong>Análise e Desenvolvimento de Sistemas</strong> na Uninassau e sou formado pelo CDD 4.0 nas tecnologias <strong>Back-End: Java, Python e MySQL.</strong> 
+      </p>
 
-    <p>
-      Veja meu
-      <a href="https://www.linkedin.com/in/igor-mesquita-dev/">LinkedIn</a>
-    </p>
+      <p>
+        <a
+          class="linkedin"
+          href="https://www.linkedin.com/in/igor-mesquita-dev/"
+        ></a>
+      </p>
+    </div>
+
     <hr />
-    <h3>Cursos de Especializações</h3>
-    <ul>
-      <li>CDD 4.0</li>
+    <div class="container" id="especializacao">
+      <h3>Cursos de Especializações</h3>
+    <ul style="list-style: none;">
+      <li>CDD 4.0 - Java, Python, MySQL</li>
       <li>Análise e Desenvolvimento de Sistemas</li>
-      <li>Treina Recife - FullSatck</li>
+      <li>Treina Recife - SpringBoot, Bootstrap, JavaScript, Java, HTML, CSS, API REST</li>
+      <li>Alura - Java, SpringBoot</li>
     </ul>
-    <a href="contato.html">Ir para contatos</a><br />
-    <a href="hobbies.html">Meus hobbies</a>
+    </div>
+    <hr>
+    <br>
+
+      <div>
+        <ul style="list-style: none;">
+          <li>Jogar🎮</li>
+          <li>Filmes🎬</li>
+          <li>Ler📕</li>
+          <li>Promgramar💻</li>
+        </ul>
+      </div>
+      <hr>
+      <div>
+        <h3>Contatos</h3>
+        <ul style="list-style: none;">
+          <li>Numero: (81) 98994-3922</li>
+          <li>Email: igormesquitab25@gmail.com</li>
+        </ul>
+      </div>
+      <hr>
+
+    <footer>
+      <a href="https://www.linkedin.com/in/igor-mesquita-dev/">linkedin</a>
+      <a href="https://github.com/meskitasz">GitHub</a><br>
+      Igor Mesquita &COPY;
+    </footer>
+  
+    
+   </div>
+    
+    
   </body>
 </html>
